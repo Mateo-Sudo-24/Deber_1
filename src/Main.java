@@ -36,14 +36,14 @@ public class Main {
                     System.out.println("---Area del circulo---");
                     System.out.println("Ingrese el radio del circulo: ");
                     double radioC = sc.nextDouble();
-                    double areaC= Math.PI * Math.pow(radioC,2);
-                    System.out.println("El area del circulo es: " + areaC);
+                    double areaCr = Math.PI * Math.pow(radioC,2);
+                    System.out.println("El area del circulo es: " + areaCr);
                     break;
                 case 4:
-                    System.out.printf("---Saliendo del sistema---");
+                    System.out.println("---Saliendo del sistema---");
                     return;
                 default:
-                    System.out.printf("---Ingrese un número que este en el menu---");
+                    System.out.println("---Ingrese un número que este en el menu---");
             }
 
             System.out.println("Presione cualquier tecla para volver al menu");
