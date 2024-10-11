@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        while(true) {
+        while (true){
             System.out.println("-------Calculadora de Areas-------");
             System.out.println("1) Area del triangulo: ");
             System.out.println("2) Area del cuadrado: ");
@@ -35,18 +35,18 @@ public class Main {
                 case 3:
                     System.out.println("---Area del circulo---");
                     System.out.println("Ingrese el radio del circulo: ");
-                    double radioCr = sc.nextDouble();
-                    double areaCr = Math.PI * Math.pow(radioCr, 2.0);
-                    System.out.println("El area del circulo es: " + areaCr);
+                    double radioC = sc.nextDouble();
+                    double areaC= Math.PI * Math.pow(radioC,2);
+                    System.out.println("El area del circulo es: " + areaC);
                     break;
                 case 4:
-                    System.out.println("---Saliendo del programa---");
+                    System.out.printf("---Saliendo del sistema---");
                     return;
                 default:
-                    System.out.println("---Ingrese un número que se encuentre en el menu---");
+                    System.out.printf("---Ingrese un número que este en el menu---");
             }
 
-            System.out.println("Presione enter para volver al menu");
+            System.out.printf("Presione cualquier tecla para volver al menu");
             sc.nextLine();
             sc.nextLine();
         }
