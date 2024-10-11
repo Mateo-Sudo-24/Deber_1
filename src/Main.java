@@ -46,7 +46,7 @@ public class Main {
                     System.out.printf("---Ingrese un número que este en el menu---");
             }
 
-            System.out.printf("Presione cualquier tecla para volver al menu");
+            System.out.println("Presione cualquier tecla para volver al menu");
             sc.nextLine();
             sc.nextLine();
         }
